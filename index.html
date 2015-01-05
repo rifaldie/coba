@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div data-role="page" id="home" data-theme="b">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h1>Home</h1>
+            </div>
+            <div data-role="content">
+                <center><h1>Guest House</h1></center>
+                <img src="images/white_mnt_hotel_03_033009.jpg" width="200" style="display: block; margin: 0 auto"
+                />
+                <span>Guest House adalah hotel dengan "javanese culture." yang berlokasi di Kaliurang
+                    Yogyakarta. Setiap tamu akan di sambut dengan alunan budaya Jawa yang di kombinasikan
+                    dengan kelengkapan makanan khas dan pemandangan alam yang sejuk dan menyenangkan.
+                    Untuk melepaskan kepenatan aktivitas sehari-hari, dan relaks dengan menyenangkan
+                    di ruangan dan halaman Guest House. Kami menyediakan berbagai makanan lokal yang
+                    di kombinasikan dengan ramuan internasional sehingga memberikan cita rasa yang tinggi.
+                    Makanan khas Yogya</span>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" class="ui-btn-active" href="#home" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#menu" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#info" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="menu" data-theme="b">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h1>Menu</h1>
+            </div>
+            <div data-role="content">
+                <div data-role="collapsible">
+                    <h1>Facilities</h1>
+                    <div data-role="controlgroup">
+                        <a data-role="button" href="#guest">Guest Room</a>
+                        <a data-role="button" href="#dining">Dinning</a>
+                        <a data-role="button" href="#garden">Garden</a>
+                    </div>
+                </div>
+                <a data-role="button" href="#Reservation">Reservation</a>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#home" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" class="ui-btn-active" href="#menu" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#info" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="info" data-theme="b">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h1>Info</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <span>Guest House, Kaliurang, Yogyakarta</span>
+                </div>
+                <ul data-role="listview" data-inset="true" data-theme="e">
+                    <li data-theme="e">
+                        <a href="tel:0291112222">Phone: 029-111 2222</a>
+                    </li>
+                    <li>
+                        <a href="email:Guesthouse@gmail.com">Email : Guesthouse@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#home" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#menu" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" class="ui-btn-active" href="#info" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="guest">
+            <div data-role="header" data-theme="b">
+                <h1>Guest Room</h1>
+                <a data-role="button" href="#menu" data-icon="back" data-theme="b">back</a>
+            </div>
+            <div data-role="content">
+                <center><h4>Dapatkan pemandangan menarik</h4></center>
+                <img src="images/hotel-room.jpg" width="200" style="display: block; margin: 0 auto"
+                />
+                <p><span>Setiap kamar di desain dengan suasana pedesaan yang sejuk, di lengkapi dengan perlengkapan
+                    tidur yang memanjakan seperti tempat tidur spring-bed, layar flat TV, bebas akses
+                    internet. Ketika membuka jendela, Anda akan melihat pemandangan Gunung Merapi yang
+                    menawan, serta pada sisi lainnya pemandangan kota Yogya dari atas semakin menambah
+                    menarik pemandangan yang di lihat. Semuanya dapat Anda nikmati dari jendela kamar
+                    Anda</span><p>
+            </div>
+        </div>
+        <div data-role="page"  id="dining">
+            <div data-role="header" data-theme="b">
+                <h1>Dining</h1>
+                <a data-role="button" href="#menu" data-icon="back" data-theme="b" data-inline="true">back</a>
+            </div>
+            <div data-role="content"  data-theme="default">
+                <center><h4>Makanan Khas Yogya</h4></center>				
+				<p><ol>
+				<li><u>Gudeg</u></li>
+				<img src="images/gudeg.jpg" width="240" style="display: block; margin: 0 auto"
+                />
+                <p><span>Gudeg (bahasa Jawa gudheg) adalah makanan khas Yogyakarta dan Jawa Tengah yang terbuat
+                    dari nangka muda yang dimasak dengan santan. Perlu waktu berjam-jam untuk membuat
+                    masakan ini. Warna coklat biasanya dihasilkan oleh daun jati yang dimasak bersamaan.
+                    Gudeg dimakan dengan nasi dan disajikan dengan kuah santan kental (areh), ayam kampung,
+                    telur, tahu dan sambal goreng krecek. Ada berbagai varian gudeg, antara lain: Gudeg
+                    kering, yaitu gudeg yang disajikan dengan areh kental, jauh lebih kental daripada
+                    santan pada masakan padang. Gudeg basah, yaitu gudeg yang disajikan dengan areh encer.
+                    Gudeg Solo, yaitu gudeg yang arehnya berwarna putih.</span>
+                <p><li><u>Bakpia</u></li><img src="images/bakpia.jpg"
+                width="240" style="display: block; margin: 0 auto" />
+                <p><span>Bakpia adalah makanan yang terbuat dari campuran kacang hijau dengan gula, yang dibungkus dengan tepung, lalu dipanggang. Istilah bakpia sendiri adalah berasal dari dialek Hokkian (Hanzi: 肉餅), yaitu dari kata "bak" yang berarti daging dan "pia" yang berarti kue, yang secara harfiah berarti roti berisikan daging. Di beberapa daerah di Indonesia, makanan yang terasa legit ini dikenal dengan nama pia atau kue pia. Lezatnya rasa bakpia menjadikan kue ini menjadi salah satu favorit para wisatawan yang berkunjung ke Jogja. Bakpia bisa didapatkan di toko bakpia atau toko yang menjual oleh-oleh khas Yogyakarta.</span>
+                <p><li><u>Geplak</u></li><img src="images/geplak.jpg" width="240" style="display: block; margin: 0 auto"
+                />
+				<p><span>Geplak adalah makanan khas kota Bantul yang terbuat dari parutan kelapa dan gula pasir atau gula jawa, yang rasanya manis. Ada pula yang menyebutnya sebagai makanan Betawi dengan tambahan bahan berupa tepung beras dan daun jeruk purut. Terdapat pula geplak yang dibuat dari waluh. Industri geplak umumnya dapat ditemui di daerah Bantul, Yogyakarta, yang kebanyakan diusahakan oleh industri rumah tangga. Selanjutnya jenis penganan ini berkembang meluas akibat permintaan pasar dan diusahakan tidak hanya di sekitar kota Yogya akan tetapi juga di seluruh nusantara</span>
+                
+            </div>
+        </div>
+        <div data-role="page" id="garden">
+            <div data-role="header" data-theme="b">
+                <h1>Garden</h1>
+                <a data-role="button" href="#menu" data-icon="back" data-theme="b" data-inline="true">back</a>
+            </div>
+            <div data-role="content">
+                <center><h4>Pemandangan Menarik</h4></center>
+                <img src="images/guest-house.jpg" width="240" style="display: block; margin: 0 auto"
+                />
+                <span>Setiap kamar juga dilengkapi dengan balkon atau teras untuk menambah kenyamanan setiap tamu yang menginap untuk menikmati pemandangan yang disediakan oleh Guest House</span>
+            </div>
+        </div>
+        <div data-role="page" id="Reservation" data-theme="c">
+            <div data-role="header" data-theme="b">
+                <h1>Reservation</h1>
+                <a data-role="button" href="#menu" data-icon="back" data-theme="b"
+                data-inline="true">back</a>
+            </div>
+            <div data-role="content">
+                <span>Order ke Kami</span>
+                <div data-role="fieldcontain">
+                    <label for="text1">Panggilan :</label>
+					<select name="title" id="title" data-inline="true">
+					  <option> </option>
+					  <option>Mr.</option>
+					  <option>Mrs.</option>
+					  <option>Ms.</option>
+					  <option>Lainnya</option>
+					</select>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="text2">Yang Lain :</label>
+                    <input type="text" id="text2" />
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="text3">Nama Depan :</label>
+                    <input type="text" id="text3" />
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="text4">Nama Keluarga :</label>
+                    <input type="text" id="text4" />
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="text5">Datang :</label>
+                    <input type="Date" id="text5" />
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="text6">Keluar :</label>
+                    <input type="Date" id="text6" />
+                </div>
+                <span>Tamu</span>
+                <div data-role="fieldcontain" id="slider1">
+                    <label for="slider1-range">Dewasa :</label>
+                    <input type="range" id="slider1-range" value="1" min="1" max="50"
+                    step="1" />
+                </div>
+                <div data-role="fieldcontain" id="slider2">
+                    <label for="slider2-range">Anak-Anak :</label>
+                    <input type="range" id="slider2-range" value="1" min="0" max="50"
+                    step="1" />
+                </div>
+				<center>
+                <a data-role="button" data-theme="e" data-inline="true">Cek Ketersediaan & Rates</a>
+				</center>
+            </div>
+        </div>
+    </body>
+
+</html>
